@@ -33,7 +33,7 @@ const AccessButton = props => (
       const requestParameters = {
         client_id: "020d684d88ac44968071ae95d4dd8860",
         response_type: "token",
-        redirect_uri: encodeURIComponent(`${window.location.href}/authorized`),
+        redirect_uri: encodeURIComponent(`${window.location.href}authorized`),
         state: 1,
         scope: "user-top-read"
       };
